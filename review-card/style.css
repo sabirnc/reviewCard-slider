@@ -1,0 +1,60 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items : center;
+    margin-top: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+   border: 1px ;
+   width: 500px;
+   height:600px ;
+   box-shadow:   2px 1px 2px 1px rgba(0 ,0 ,0 , 0.1) ;
+
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+.person-img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid;
+    border-width: 3px;
+    border-color: rgb(82, 125, 158);
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.author{
+    color: rgb(82, 125, 158);
+    margin-bottom: 0;
+
+}
+.job{
+    color: rgb(82, 125, 158);
+    margin-top: 8px;
+    font-weight: lighter;
+}
+.review-container{
+    padding: 10px;
+    text-align: center;
+}
+.review{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+i{
+    width: 15px;
+    cursor: pointer;
+}
